@@ -1,0 +1,28 @@
+@import "../lib/colors.scss";
+.header {
+  padding: 24px 50px;
+  box-shadow: 0px 0px 4px rgba(120, 37, 141, 0.15);
+  .navbar {
+    margin-left: 55px;
+    .menu__list {
+      column-gap: 15px;
+      a,
+      span {
+        font-size: 16px;
+        line-height: 24px;
+        color: $dark-grey;
+        border-radius: 5px;
+        padding: 10px 15px;
+        letter-spacing: 0.01em;
+        font-family: "SemiBold";
+        &:hover {
+          color: $white;
+          background-color: $purple;
+        }
+      }
+    }
+  }
+  .btn {
+    margin-left: auto;
+  }
+}

@@ -1,0 +1,19 @@
+@mixin fb($w, $py: 0px, $px: 20px) {
+  width: $w;
+  max-width: $w;
+  flex-basis: $w;
+  padding: $py $px;
+}
+
+@mixin flex($a: flex-start, $j: start) {
+  display: flex;
+  align-items: $a;
+  justify-content: $j;
+}
+
+@mixin img($w, $h) {
+  width: $w;
+  height: $h;
+  object-fit: cover;
+  object-position: center;
+}
