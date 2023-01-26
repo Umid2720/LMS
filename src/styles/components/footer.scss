@@ -1,0 +1,78 @@
+@import '../lib/colors.scss';
+
+.footer {
+    font-size: 14px;
+    padding-top: 77px;
+    background-color: $purple;
+
+    p {
+        opacity: 0.8;
+        font-size: 14px;
+        max-width: 292px;
+        line-height: 17px;
+    }
+
+    &__title {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 11px;
+    }
+
+    &__box {
+        li {
+            margin-bottom: 4px;
+
+            a {
+                opacity: 0.8;
+                font-size: 16px;
+                line-height: 24px;
+                font-family: 'Medium';
+                letter-spacing: 0.02em;
+                &:hover{
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    .gibi {
+        font-size: 22px;
+        line-height: 25px;
+        letter-spacing: 0.01em;
+    }
+
+    &__contact {
+        font-size: 18px;
+        line-height: 20px;
+        font-family: 'Bold';
+        letter-spacing: 0.01em;
+        margin-bottom: 15px;
+    }
+
+    &__email {
+        margin-bottom: 15px;
+
+        a {
+            opacity: 0.8;
+            font-size: 16px;
+            line-height: 18px;
+        }
+    }
+
+    &__address {
+        opacity: 0.8;
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    &__copy {
+        padding: 12px 0;
+        font-size: 14px;
+        background-color: $black;
+
+        span {
+            opacity: 0.8;
+            line-height: 16px;
+        }
+    }
+}

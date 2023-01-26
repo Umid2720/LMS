@@ -5,15 +5,15 @@
   padding: $py $px;
 }
 
-@mixin flex($a: flex-start, $j: start) {
-  display: flex;
-  align-items: $a;
-  justify-content: $j;
-}
+// @mixin flex($a: flex-start, $j: start) {
+//   display: flex;
+//   align-items: $a;
+//   justify-content: $j;
+// }
 
-@mixin img($w, $h) {
-  width: $w;
-  height: $h;
-  object-fit: cover;
-  object-position: center;
-}
+// @mixin img($w, $h) {
+//   width: $w;
+//   height: $h;
+//   object-fit: cover;
+//   object-position: center;
+// }

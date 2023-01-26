@@ -1,17 +1,40 @@
+@import './colors.scss';
+.t-0{top: 0;}
+.l-0{left: 0;}
+.r-0{right: 0;}
+.b-0{bottom: 0;}
+.grey{color: $grey;}
 .none{display: none;}
 .flex{display: flex;}
+.white{color: $white;}
+.black{color: $black;}
+.m-auto{margin: auto;}
+.block{display: block;}
 .pointer{cursor: pointer;}
+.bold{font-family: 'Bold';}
+.b-r-50{border-radius: 50%;}
+.c-gap-15{column-gap: 15px;}
+.c-gap-40{column-gap: 40px;}
+.m-l-auto{margin-left: auto;}
+.heavy{font-family: 'Heavy';}
+.absolute{position: absolute;}
+.relative{position: relative;}
+.medium{font-family: 'Medium';}
+.l-s-1{letter-spacing: 0.01em;}
+.l-s-2{letter-spacing: 0.02em;}
 .text-center{text-align: center;}
+.regular{font-family: 'Regular';}
 .items-end{align-items: flex-end;}
+.semibold{font-family: 'Semibold';}
 .items-center{align-items: center;}
-.letter-spacing{letter-spacing: 0.01em;}
+.inline-block{display: inline-block;}
+.justify-center{justify-content: center;}
 .justify-between{justify-content: space-between;}
 
 .btn {
   color: $white;
   line-height: 24px;
-  letter-spacing: 0.01em;
-  font-family: "Semibold";
+  @extend .l-s-1, .semibold;
   border: 1px solid $purple;
   background-color: $purple;
   &:hover {
@@ -19,9 +42,8 @@
   }
   &.outline {
     color: $purple;
-    font-family: "Regular";
-    font-family: 'Regular';
-    background-color: unset;
+    @extend .regular;
+    background-color: $white;
     &:hover{
         color: $white;
         background-color: $purple;

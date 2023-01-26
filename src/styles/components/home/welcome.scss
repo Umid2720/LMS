@@ -7,7 +7,6 @@
     font-size: 18px;
     line-height: 21px;
     margin-bottom: 15px;
-    font-family: "Semibold";
   }
 
   p {
@@ -16,26 +15,20 @@
     line-height: 35px;
     color: $light-grey;
     margin: 20px 0 56px;
-    font-family: "Medium";
   }
 
   .btn {
     font-size: 18px;
-    margin-right: 32px;
     padding: 18px 27.5px;
   }
 
   &__play {
-    color: $grey;
-    font-family: "Medium";
-    letter-spacing: 0.02em;
 
     span {
       width: 60px;
       height: 60px;
       margin-right: 12px;
-      border-radius: 50%;
-      background-color: #FFEFEF;
+      background-color: $light-pink;
       padding: 18px 17px 17px 23px;
 
       img {

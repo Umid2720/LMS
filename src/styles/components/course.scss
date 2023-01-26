@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import '../lib/general.scss';
+@import '../lib/colors.scss';
+
+.course {
+    &__slide {
+        .splide__pagination {
+            bottom: -50px;
+
+            button {
+                width: 12px;
+                height: 12px;
+                background-color: $purple;
+
+                &.is-active {
+                    width: 24px;
+                    height: 24px;
+                    transform: scale(1.2);
+                    background-color: $white;
+                    border: 3px solid $purple;
+
+                    &::before {
+                        @extend .t-0, .l-0, .r-0, .b-0, .m-auto, .absolute, .inline-block, .b-r-50;
+                        width: 12px;
+                        content: '';
+                        height: 12px;
+                        background-color: $purple;
+                    }
+                }
+            }
+        }
+    }
+
+    &__box {
+        padding: 40px;
+        border-radius: 10px;
+    }
+
+    &__title {
+        font-size: 26px;
+        line-height: 29px;
+    }
+
+    &__info {
+        font-size: 16px;
+        line-height: 19px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    &__bottom {
+        font-size: 16px;
+        margin-top: 25px;
+        line-height: 24px;
+        color: $dark-purple;
+    }
+
+    &__price {
+        font-size: 20px;
+        line-height: 113%;
+    }
+}

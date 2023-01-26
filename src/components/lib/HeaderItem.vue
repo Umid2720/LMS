@@ -1,16 +1,16 @@
 <template>
     <header class="header flex items-center">
-        <router-link to="/"><img src="@/assets/img/logo.svg" alt="logo.svg" class="logo"></router-link>
+        <router-link to="/"><img src="@/assets/icons/logo.svg" alt="logo.svg" class="logo"></router-link>
         <nav class="navbar">
-            <ul class="menu__list flex">
+            <ul class="menu__list c-gap-15 flex">
                 <li class="menu-item">
-                    <router-link to="/">Курсы</router-link>
+                    <router-link class="l-s-1 semibold" to="/">Курсы</router-link>
                 </li>
                 <li class="menu-item">
-                    <router-link to="/">О нас</router-link>
+                    <router-link class="l-s-1 semibold" to="/">О нас</router-link>
                 </li>
                 <li class="menu-item">
-                    <router-link to="/">Блог</router-link>
+                    <router-link class="l-s-1 semibold" to="/">Блог</router-link>
                 </li>
                 <li class="menu-item">
                     <span class="pointer">Еще</span>
@@ -22,7 +22,7 @@
                 </li>
             </ul>
         </nav>
-        <button class="btn">Войти</button>
+        <button class="btn m-l-auto">Войти</button>
     </header>
 </template>
 <script>
