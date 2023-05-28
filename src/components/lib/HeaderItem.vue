@@ -13,7 +13,7 @@
                     <router-link class="l-s-1 semibold" to="/">Блог</router-link>
                 </li>
                 <li class="menu-item">
-                    <span class="pointer">Еще</span>
+                    <span class="pointer l-s-1 semibold">Еще</span>
                     <ul class="header__dropdown none">
                         <li><router-link to="/">faq</router-link></li>
                         <li><router-link to="/">Контакты</router-link></li>

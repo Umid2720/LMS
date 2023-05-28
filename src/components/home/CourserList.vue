@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container" id="course">
         <div class="flex items-end justify-between">
             <div class="col-6 col-md-12">
                 <h2 class="letter-spacing">Курсы иностранных языков для любого уровня</h2>
